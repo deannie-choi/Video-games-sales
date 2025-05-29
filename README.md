@@ -30,3 +30,22 @@ SELECT Genre, ROUND(AVG(Global_Sales), 2) AS Avg_Sales
 FROM games
 GROUP BY Genre
 ORDER BY Avg_Sales DESC;
+
+## 📊 Tableau Visualizations
+
+Explore the interactive dashboards by clicking the images below:
+
+### 1. Genre vs Average Global Sales
+[![Genre Sales](images/genre_sales.png)](https://public.tableau.com/views/VideoGameGenreSales/Chart1)
+
+### 2. Platform Sales Over Time
+[![Platform Sales](images/platform_trend.png)](https://public.tableau.com/views/PlatformSalesOverYears/Chart2)
+
+### 3. Publisher Top Games
+[![Top Games](images/publisher_top_games.png)](https://public.tableau.com/views/TopPublisherGames/Chart3)
+
+### 4. Critic Score vs Global Sales
+[![Score vs Sales](images/critic_vs_sales.png)](https://public.tableau.com/views/CriticScoreVsSales/Chart4)
+
+### 5. Critic vs User Score Gap
+[![Score Gap](images/score_gap.png)](https://public.tableau.com/views/ScoreGapAnalysis/Chart5)
